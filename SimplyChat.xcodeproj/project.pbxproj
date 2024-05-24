@@ -11,6 +11,7 @@
 		853BC63C2C002F6000B80186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC63B2C002F6000B80186 /* ContentView.swift */; };
 		853BC63E2C002F6100B80186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853BC63D2C002F6100B80186 /* Assets.xcassets */; };
 		853BC6412C002F6100B80186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853BC6402C002F6100B80186 /* Preview Assets.xcassets */; };
+		853BC6672C00ADBB00B80186 /* TitleRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC6662C00ADBB00B80186 /* TitleRow.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		853BC6402C002F6100B80186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		853BC6462C002F6100B80186 /* SimplyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		853BC6502C002F6100B80186 /* SimplyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		853BC6662C00ADBB00B80186 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,7 @@
 		853BC6382C002F6000B80186 /* SimplyChat */ = {
 			isa = PBXGroup;
 			children = (
+				853BC6632C00AA5600B80186 /* Components */,
 				853BC6392C002F6000B80186 /* SimplyChatApp.swift */,
 				853BC63B2C002F6000B80186 /* ContentView.swift */,
 				853BC63D2C002F6100B80186 /* Assets.xcassets */,
@@ -100,6 +103,14 @@
 				853BC6402C002F6100B80186 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		853BC6632C00AA5600B80186 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				853BC6662C00ADBB00B80186 /* TitleRow.swift */,
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +245,7 @@
 			files = (
 				853BC63C2C002F6000B80186 /* ContentView.swift in Sources */,
 				853BC63A2C002F6000B80186 /* SimplyChatApp.swift in Sources */,
+				853BC6672C00ADBB00B80186 /* TitleRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
