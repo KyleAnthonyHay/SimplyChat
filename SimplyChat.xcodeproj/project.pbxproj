@@ -11,9 +11,6 @@
 		853BC63C2C002F6000B80186 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC63B2C002F6000B80186 /* ContentView.swift */; };
 		853BC63E2C002F6100B80186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853BC63D2C002F6100B80186 /* Assets.xcassets */; };
 		853BC6412C002F6100B80186 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 853BC6402C002F6100B80186 /* Preview Assets.xcassets */; };
-		853BC64B2C002F6100B80186 /* SimplyChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC64A2C002F6100B80186 /* SimplyChatTests.swift */; };
-		853BC6552C002F6100B80186 /* SimplyChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC6542C002F6100B80186 /* SimplyChatUITests.swift */; };
-		853BC6572C002F6100B80186 /* SimplyChatUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC6562C002F6100B80186 /* SimplyChatUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,10 +37,7 @@
 		853BC63D2C002F6100B80186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853BC6402C002F6100B80186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		853BC6462C002F6100B80186 /* SimplyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		853BC64A2C002F6100B80186 /* SimplyChatTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyChatTests.swift; sourceTree = "<group>"; };
 		853BC6502C002F6100B80186 /* SimplyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		853BC6542C002F6100B80186 /* SimplyChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyChatUITests.swift; sourceTree = "<group>"; };
-		853BC6562C002F6100B80186 /* SimplyChatUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimplyChatUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,8 +69,6 @@
 			isa = PBXGroup;
 			children = (
 				853BC6382C002F6000B80186 /* SimplyChat */,
-				853BC6492C002F6100B80186 /* SimplyChatTests */,
-				853BC6532C002F6100B80186 /* SimplyChatUITests */,
 				853BC6372C002F6000B80186 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,23 +100,6 @@
 				853BC6402C002F6100B80186 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		853BC6492C002F6100B80186 /* SimplyChatTests */ = {
-			isa = PBXGroup;
-			children = (
-				853BC64A2C002F6100B80186 /* SimplyChatTests.swift */,
-			);
-			path = SimplyChatTests;
-			sourceTree = "<group>";
-		};
-		853BC6532C002F6100B80186 /* SimplyChatUITests */ = {
-			isa = PBXGroup;
-			children = (
-				853BC6542C002F6100B80186 /* SimplyChatUITests.swift */,
-				853BC6562C002F6100B80186 /* SimplyChatUITestsLaunchTests.swift */,
-			);
-			path = SimplyChatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -266,7 +241,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853BC64B2C002F6100B80186 /* SimplyChatTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,8 +248,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				853BC6572C002F6100B80186 /* SimplyChatUITestsLaunchTests.swift in Sources */,
-				853BC6552C002F6100B80186 /* SimplyChatUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
