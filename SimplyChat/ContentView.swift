@@ -24,7 +24,8 @@ struct ContentView: View {
                     
                 }
             .background(Color("MyBlue"))
-            MessageField().padding(.horizontal, 20)
+            MessageField()
+                .padding(.horizontal, 20)
         }
         }
 }

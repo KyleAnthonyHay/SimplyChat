@@ -16,24 +16,10 @@
 		853BC66C2C00BC2200B80186 /* MessageBubble.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC66B2C00BC2200B80186 /* MessageBubble.swift */; };
 		853BC66E2C01071C00B80186 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC66D2C01071C00B80186 /* Extensions.swift */; };
 		853BC6702C0107E100B80186 /* MessageField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 853BC66F2C0107E100B80186 /* MessageField.swift */; };
+		85C9A47A2C30DF64009BDCE9 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 85C9A4792C30DF64009BDCE9 /* GoogleService-Info.plist */; };
+		85C9A47D2C30DFBF009BDCE9 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 85C9A47C2C30DFBF009BDCE9 /* FirebaseFirestore */; };
+		85C9A47F2C30DFBF009BDCE9 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 85C9A47E2C30DFBF009BDCE9 /* FirebaseFirestoreSwift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		853BC6472C002F6100B80186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 853BC62E2C002F6000B80186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 853BC6352C002F6000B80186;
-			remoteInfo = SimplyChat;
-		};
-		853BC6512C002F6100B80186 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 853BC62E2C002F6000B80186 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 853BC6352C002F6000B80186;
-			remoteInfo = SimplyChat;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		853BC6362C002F6000B80186 /* SimplyChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimplyChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -41,13 +27,12 @@
 		853BC63B2C002F6000B80186 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		853BC63D2C002F6100B80186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		853BC6402C002F6100B80186 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		853BC6462C002F6100B80186 /* SimplyChatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		853BC6502C002F6100B80186 /* SimplyChatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimplyChatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		853BC6662C00ADBB00B80186 /* TitleRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleRow.swift; sourceTree = "<group>"; };
 		853BC6692C00BBBF00B80186 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
 		853BC66B2C00BC2200B80186 /* MessageBubble.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubble.swift; sourceTree = "<group>"; };
 		853BC66D2C01071C00B80186 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		853BC66F2C0107E100B80186 /* MessageField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageField.swift; sourceTree = "<group>"; };
+		85C9A4792C30DF64009BDCE9 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,20 +40,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853BC6432C002F6100B80186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853BC64D2C002F6100B80186 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				85C9A47D2C30DFBF009BDCE9 /* FirebaseFirestore in Frameworks */,
+				85C9A47F2C30DFBF009BDCE9 /* FirebaseFirestoreSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +60,6 @@
 			isa = PBXGroup;
 			children = (
 				853BC6362C002F6000B80186 /* SimplyChat.app */,
-				853BC6462C002F6100B80186 /* SimplyChatTests.xctest */,
-				853BC6502C002F6100B80186 /* SimplyChatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +67,7 @@
 		853BC6382C002F6000B80186 /* SimplyChat */ = {
 			isa = PBXGroup;
 			children = (
+				85C9A4792C30DF64009BDCE9 /* GoogleService-Info.plist */,
 				853BC6392C002F6000B80186 /* SimplyChatApp.swift */,
 				853BC63B2C002F6000B80186 /* ContentView.swift */,
 				853BC6682C00BBAE00B80186 /* Models */,
@@ -149,45 +121,13 @@
 			dependencies = (
 			);
 			name = SimplyChat;
+			packageProductDependencies = (
+				85C9A47C2C30DFBF009BDCE9 /* FirebaseFirestore */,
+				85C9A47E2C30DFBF009BDCE9 /* FirebaseFirestoreSwift */,
+			);
 			productName = SimplyChat;
 			productReference = 853BC6362C002F6000B80186 /* SimplyChat.app */;
 			productType = "com.apple.product-type.application";
-		};
-		853BC6452C002F6100B80186 /* SimplyChatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 853BC65D2C002F6100B80186 /* Build configuration list for PBXNativeTarget "SimplyChatTests" */;
-			buildPhases = (
-				853BC6422C002F6100B80186 /* Sources */,
-				853BC6432C002F6100B80186 /* Frameworks */,
-				853BC6442C002F6100B80186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				853BC6482C002F6100B80186 /* PBXTargetDependency */,
-			);
-			name = SimplyChatTests;
-			productName = SimplyChatTests;
-			productReference = 853BC6462C002F6100B80186 /* SimplyChatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		853BC64F2C002F6100B80186 /* SimplyChatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 853BC6602C002F6100B80186 /* Build configuration list for PBXNativeTarget "SimplyChatUITests" */;
-			buildPhases = (
-				853BC64C2C002F6100B80186 /* Sources */,
-				853BC64D2C002F6100B80186 /* Frameworks */,
-				853BC64E2C002F6100B80186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				853BC6522C002F6100B80186 /* PBXTargetDependency */,
-			);
-			name = SimplyChatUITests;
-			productName = SimplyChatUITests;
-			productReference = 853BC6502C002F6100B80186 /* SimplyChatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -202,14 +142,6 @@
 					853BC6352C002F6000B80186 = {
 						CreatedOnToolsVersion = 15.4;
 					};
-					853BC6452C002F6100B80186 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 853BC6352C002F6000B80186;
-					};
-					853BC64F2C002F6100B80186 = {
-						CreatedOnToolsVersion = 15.4;
-						TestTargetID = 853BC6352C002F6000B80186;
-					};
 				};
 			};
 			buildConfigurationList = 853BC6312C002F6000B80186 /* Build configuration list for PBXProject "SimplyChat" */;
@@ -221,13 +153,14 @@
 				Base,
 			);
 			mainGroup = 853BC62D2C002F6000B80186;
+			packageReferences = (
+				85C9A47B2C30DFBF009BDCE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 853BC6372C002F6000B80186 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				853BC6352C002F6000B80186 /* SimplyChat */,
-				853BC6452C002F6100B80186 /* SimplyChatTests */,
-				853BC64F2C002F6100B80186 /* SimplyChatUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -239,20 +172,7 @@
 			files = (
 				853BC6412C002F6100B80186 /* Preview Assets.xcassets in Resources */,
 				853BC63E2C002F6100B80186 /* Assets.xcassets in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853BC6442C002F6100B80186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853BC64E2C002F6100B80186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				85C9A47A2C30DF64009BDCE9 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,34 +193,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		853BC6422C002F6100B80186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		853BC64C2C002F6100B80186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		853BC6482C002F6100B80186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 853BC6352C002F6000B80186 /* SimplyChat */;
-			targetProxy = 853BC6472C002F6100B80186 /* PBXContainerItemProxy */;
-		};
-		853BC6522C002F6100B80186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 853BC6352C002F6000B80186 /* SimplyChat */;
-			targetProxy = 853BC6512C002F6100B80186 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		853BC6582C002F6100B80186 /* Debug */ = {
@@ -480,82 +373,6 @@
 			};
 			name = Release;
 		};
-		853BC65E2C002F6100B80186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5NW26ADGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.SimplyChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyChat";
-			};
-			name = Debug;
-		};
-		853BC65F2C002F6100B80186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5NW26ADGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.SimplyChatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimplyChat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SimplyChat";
-			};
-			name = Release;
-		};
-		853BC6612C002F6100B80186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5NW26ADGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.SimplyChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimplyChat;
-			};
-			name = Debug;
-		};
-		853BC6622C002F6100B80186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = J5NW26ADGW;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.kyleanthonyhay.SimplyChatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = SimplyChat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -577,25 +394,31 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		853BC65D2C002F6100B80186 /* Build configuration list for PBXNativeTarget "SimplyChatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				853BC65E2C002F6100B80186 /* Debug */,
-				853BC65F2C002F6100B80186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		853BC6602C002F6100B80186 /* Build configuration list for PBXNativeTarget "SimplyChatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				853BC6612C002F6100B80186 /* Debug */,
-				853BC6622C002F6100B80186 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		85C9A47B2C30DFBF009BDCE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.28.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		85C9A47C2C30DFBF009BDCE9 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85C9A47B2C30DFBF009BDCE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		85C9A47E2C30DFBF009BDCE9 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 85C9A47B2C30DFBF009BDCE9 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 853BC62E2C002F6000B80186 /* Project object */;
 }
